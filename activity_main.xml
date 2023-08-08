@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/intro_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="200dp"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/intro_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="394dp"
+        android:layout_marginTop="300dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/intro_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="-290dp"
+        android:layout_marginTop="350dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/intro_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="-276dp"
+        android:layout_marginTop="400dp"
+    android:text= "" />
+    <TextView
+        android:id="@+id/permission_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="550dp"
+        android:text="" />
+    <Button
+    android:id="@+id/next"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="70dp"
+    android:layout_marginStart="70dp"
+    android:layout_marginTop="500dp"
+    android:text="next" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="Image Description"
+        android:rotation="0"
+        android:src="@drawable/card_game_image" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
